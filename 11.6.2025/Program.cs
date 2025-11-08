@@ -177,6 +177,67 @@
 
 
 //Task16
+////Task16
+//        Random random = new Random(); // Təsadüfi ədəd generatoru
+//        int sirliEded = random.Next(1, 21); // 1–20 arası təsadüfi ədəd
+//        int texmin; // istifadəçinin təxmin etdiyi ədəd
+
+//        Console.WriteLine("1–20 arası bir ədəd tapmağa çalış!");
+
+//        do
+//        {
+//            Console.Write("Ədəd daxil et: ");
+//            texmin = int.Parse(Console.ReadLine());
+
+//            if (texmin > sirliEded)
+//                Console.WriteLine("Çox böyükdür!");
+//            else if (texmin < sirliEded)
+//                Console.WriteLine("Çox kiçikdir!");
+//            else
+//                Console.WriteLine("Təbriklər! Düz tapdın!");
+//        }
+//        while (texmin != sirliEded); // düzgün ədəd tapılmayınca dövr davam edir
+
+//Task17
+//Console.Write("Ədəd daxil et: ");
+//int n = int.Parse(Console.ReadLine());
+
+//bool sade = true; // əvvəlcədən fərz edirik ki, ədəd sadədir
+
+//if (n <= 1)
+//{
+//    sade = false; // 1 və mənfi ədədlər sadə deyil
+//}
+//else
+//{
+//    for (int i = 2; i <= Math.Sqrt(n); i++) // 2-dən √n-ə qədər yoxlayırıq
+//    {
+//        if (n % i == 0) // əgər tam bölünürsə, sadə deyil
+//        {
+//            sade = false;
+//            break;
+//        }
+//    }
+//}
+
+//if (sade)
+//    Console.WriteLine($"{n} sadə ədəddir.");
+//else
+//    Console.WriteLine($"{n} sadə ədəd deyil.");
+
+//Task18
+//Console.Write("Ədəd daxil et: ");
+//int n = int.Parse(Console.ReadLine());
+
+//for (int i = 1; i <= n; i++)
+//{
+//    for (int j = 1; j <= i; j++)
+//    {
+//        Console.Write("*");
+//    }
+//    Console.WriteLine();
+//}
+
 
 
 
